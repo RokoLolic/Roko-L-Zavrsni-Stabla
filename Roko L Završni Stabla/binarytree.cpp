@@ -10,4 +10,6 @@ int binarynode::binaryadd(binarypointer input, binarypointer root, int keymode =
 	while() //sdfasdfsdcafsvfssdcas
 		//sadsdaxwedads
 		//sads
+
+		//dasdscarcasdcar
 };
