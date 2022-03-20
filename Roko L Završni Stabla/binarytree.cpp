@@ -9,5 +9,5 @@ binarynode::binarynode(string inputword = "", int inputint = 0) {
 int binarynode::binaryadd(binarypointer input, binarypointer root, int keymode = KEYMODE_INTEGER) {
 	while() //sdfasdfsdcafsvfssdcas
 		//sadsdaxwedads
-
+		//sads
 };
