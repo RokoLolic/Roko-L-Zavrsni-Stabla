@@ -31,6 +31,7 @@ public:
 	int keynumb;
 	binarynode(string, int, void*, int); //stvara novi cvor
 	int binaryadd(binarypointer, binarypointer, int); //stavlja jedan u drugi cvor, int je mod
+	int binarydelete(binarypointer);
 };
 
 int writefileintostring(string rijeci, string namecitfile);
