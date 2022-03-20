@@ -5,8 +5,10 @@
 #include <string>
 #include <sstream>
 #include <fstream>
-int KEYMODE_INTEGER = 1;
-int KEYMODE_STRING = 2;
+#include <string.h>
+
+int KEYMODE_INTEGER = 1; //vrsta kljucne rijeæi 1= integer
+int KEYMODE_STRING = 2; //2= string
 using namespace std;
 
 typedef class binarynode ;
@@ -27,8 +29,8 @@ public:
 	binarypointer right;
 	string keyword;
 	int keynumb;
-	binarynode(string, int);
-	int binaryadd(binarypointer, binarypointer, int);
+	binarynode(string, int, void*, int); //stvara novi cvor
+	int binaryadd(binarypointer, binarypointer, int); //stavlja jedan u drugi cvor, int je mod
 };
 
 int writefileintostring(string rijeci, string namecitfile);
